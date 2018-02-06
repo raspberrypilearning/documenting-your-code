@@ -2,12 +2,13 @@
 
 ### Hardware
 
-+ List hardware here, or delete section.
++ A computer capable of running Python 3
 
 ### Software
 
-+ List software here, or delete section.
++ Python 3
++ TODO - in step # you will also use Sphinx
 
 ### Additional Resources
 
-+ List additional resources, or delete section.
++ TODO - an example of a project site
