@@ -6,7 +6,7 @@ duration: 2 # possible values: 1, 2 or 3
 listed: false
 ingredient: false
 copyedit: false
-curriculum: developer, design-0, programming-0, phys-comp-0, manufacture-0, community-3
+curriculum: developer, design-0, programming-4, phys-comp-0, manufacture-0, community-3
 interests: "animals, big-project, art and design, jokes/pranks, space, photography, nature/outside/weather, music/sound, physical computing, games, robots, geography"
 technologies: "python"
 site_areas:
@@ -17,4 +17,7 @@ steps:
   - title: Documenting your code
   - title: Generating documentation
   - title: Challenge
-
+  - title: Create a project website
+  - title: Adding your code
+  - title: Creating pages
+  - title: 

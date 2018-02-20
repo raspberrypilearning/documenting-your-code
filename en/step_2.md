@@ -7,8 +7,9 @@
 ### Software
 
 + Python 3
-+ TODO - in step # you will also use Sphinx
+
++ Sphinx - you will install this later in the project
 
 ### Additional Resources
 
-+ TODO - an example of a project site
++ There is an example project website available to [download](resources\website.zip)

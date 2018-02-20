@@ -4,9 +4,19 @@ Document your code and create a site for your project.
 
 ### What you will make
 
-TODO - picture of documentation
+You will create a website for your project which automatically creates documentation from your code.
+
+![desc](images/path)
 
 ### What you will learn
+
++ How to document Python code
+
++ How to automatically generate documentation
+
++ How to create ReStructured Text
+
++ How to create a project website using Sphinx
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 

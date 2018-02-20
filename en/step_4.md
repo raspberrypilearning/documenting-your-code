@@ -25,18 +25,17 @@ def helloworld():
     print("hello world")
 ```
 
-+ The first step is to add a *docstring* to the Card class constructor `__init__` which describes the class and what it is for.
++ The first step is to add a *docstring* to the Card class which describes the class and what it is for.
 
 ```python
 class Card:
-
+    """
+    The Card class represents a single playing card and is initialised by passing a suit and number.
+    """
     def __init__(self, suit, number):
-        """
-        The Card class represents a single playing card and is initialised by passing a suit and number.
-        """
+
         self._suit = suit
         self._number = number
-
 ```
 
 + Add a suitable *docstring* to the Deck class constructor `__init__` to describe it.
@@ -59,14 +58,13 @@ Follow the same format as the *docstring* in the Card class.
 
 ```python
 class Deck:
-
+    """
+    The Deck class represents a deck of playing cards in an order.
+    """
     def __init__(self):
-        """
-        The Deck class represents a deck of playing cards in an order.
-        """
+
         self._cards = []
         self.populate()
-
 ```
 
 --- /hint ---
