@@ -24,7 +24,7 @@ Deck of cards is set of classes for creating playing cards.
 + Perhaps add a hyperlink to the projects sourcecode.
 
 ```
-You can create this project yourself by visiting ``this page <https://projects.raspberrypi.org/en/projects/deck-of-cards>``_.
+You can create this project yourself by visiting `this page <https://projects.raspberrypi.org/en/projects/deck-of-cards>`_.
 ```
 
 --- collapse ---
@@ -35,10 +35,10 @@ title: URLs in ReST
 
 The structure of the URL markup is very specific.
 
-The text for the URL, and the URL itself is between 2 back ticks `\`` and is terminated with an underscore `_`.
+The text for the URL, and the URL itself is between 2 back ticks and is terminated with an underscore `_`.
 
 ```
-``link_text <url>``_
+`link_text <url>`_
 ```
 
 It is important to put a space between the `link_text` and the `<url>`.
@@ -48,7 +48,7 @@ This type of markup is referred to as **in line** because it is within the text.
 You can also create seperate url definitions and refer to them in the text - this is useful if you want to link to the same URL twice.
 
 ```
-Please visit the ``raspberry pi``_.
+Please visit the `raspberry pi`_.
 
 .. _raspberry pi: http://raspberrypi.org/
 ```
