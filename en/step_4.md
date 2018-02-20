@@ -6,7 +6,7 @@ This is a small program so you could probably review the code and *reverse engin
 
 Python allows you add information about your program into the code using [DocStrings](https://www.python.org/dev/peps/pep-0257/#what-is-a-docstring) and these are the basis for creating documentation for your code.
 
-**DocStrings** are added to the code using triple double quotes `"""` at the start of a module, class or function:
+*DocStrings* are added to the code using triple double quotes `"""` at the start of a module, class or function:
 
 ```python
 def helloworld():
@@ -14,7 +14,7 @@ def helloworld():
     print("hello world")
 ```
 
-**DocStrings** can be a single line (as in the example above), or over multiple lines:
+*DocStrings* can be a single line (as in the example above), or over multiple lines:
 
 ```python
 def helloworld():
@@ -38,7 +38,7 @@ class Card:
         self._number = number
 ```
 
-+ Add a suitable *docstring* to the Deck class constructor `__init__` to describe it.
++ Add a suitable *docstring* to the Deck class to describe it.
 
 --- hints ---
 

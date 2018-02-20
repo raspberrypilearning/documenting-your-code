@@ -10,6 +10,12 @@ You will be documenting some example code based on the [deck of cards](https://p
 
 + Open the downloaded `card.py` program using Python 3 IDLE
 
+Look over the code, you will see there are 2 classes, `Card` and `Deck`.
+
+`Card` represents a single playing card, while `Deck` is a collection of `Cards` stacked in an order.
+
+At the bottom of the program, a `deck` object is created from `Deck` and a description is printed to the screen.
+
 --- collapse ---
 
 ---
@@ -84,12 +90,6 @@ print(deck)
 ```
 
 --- /collapse ---
-
-Look over the code, you will see their are 2 classes, `Card` and `Deck`.
-
-`Card` represents a single playing card, while `Deck` is a collection of `Cards` stacked in an order.
-
-At the bottom of the program, a `deck` object is created from `Deck` and a description is printed to the screen.
 
 + Run the `card.py` program
 

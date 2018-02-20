@@ -2,7 +2,7 @@
 
 ### Configure conf.py
 
-To add the documentation from your code, Sphinx needs to know where to find it, you do this by modifying the `conf.py` file.
+To include the code documentation, Sphinx needs to know where to find it, you do this by modifying the `conf.py` file.
 
 + Open `conf.py`
 
@@ -28,7 +28,7 @@ This adds the current directory `.` to Sphinx's configuration so it can find you
 
 + Create a new file called `code.rst` which will be your code documentation page.
 
-+ Add a title to your code documentation page.
++ Add a title to the page.
 
 ```
 Code docs
@@ -52,7 +52,7 @@ In order for your `code.rst` page to appear on your project website, it needs to
 
 + Open `index.rst`.
 
-+ Modify `index.rst`, to add you `code` page under the table of contents `..toctree::`, so the code looks like this:
++ Modify `index.rst`, to add the `code` page under the table of contents `..toctree::`, so the code looks like this:
 
 ```
 Welcome to card's documentation!
@@ -77,7 +77,7 @@ Your code page will now appear in the index.
 
 ![code on the index](images/code_project_index.PNG)
 
-If you open the code page you will see your auto-generated documentation about the code class.
+When you open the code page you will see your auto-generated documentation about the code class.
 
 ![auto generated code](images/code_project_generated_docs.PNG)
 

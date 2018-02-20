@@ -83,9 +83,12 @@ title: Linux / MacOS file structure
 --- /collapse ---
 
 The key files & directory are:
-    + conf.py - this is Sphinx configuration file which describes how your documentation should be created
-    + index.rst - this is the *main* page and index of your documentation
-    + _build - your documentation will be created in this directory
+
++ conf.py - this is Sphinx configuration file which describes how your documentation should be created
+
++ index.rst - this is the *main* page and index of your documentation
+
++ _build - your documentation will be created in this directory
 
 ### Build your website
 

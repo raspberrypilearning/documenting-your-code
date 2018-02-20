@@ -4,6 +4,10 @@
 
 Can you add *docstrings* to the all the methods and properties of the Card and Deck classes to describe what they do?
 
+--- hints ---
+
+--- hint ---
+
 You add a *docstring* directly under the methods definition `def`.
 
 ```python
@@ -12,7 +16,7 @@ You add a *docstring* directly under the methods definition `def`.
         random.shuffle(self._cards)
 ```
 
---- hints ---
+--- /hint ---
 
 --- hint ---
 

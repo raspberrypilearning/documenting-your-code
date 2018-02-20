@@ -6,7 +6,7 @@ Document your code and create a site for your project.
 
 You will create a website for your project which automatically creates documentation from your code.
 
-![desc](images/path)
+![project website](images/project_website.PNG)
 
 ### What you will learn
 
