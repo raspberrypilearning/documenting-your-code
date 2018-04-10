@@ -6,26 +6,42 @@ All pages are formatted using the simple but powerful markup language [reStructu
 
 To get started lets create an **about** page which will display some details about the project and where to find out more information.
 
-+ Create a new file called `about.rst`.
+--- task ---
 
-+ Add a title to the page:
+Create a new file called `about.rst`.
+
+--- /task ---
+
+--- task ---
+
+Add a title to the page:
 
 ```
 About this project
 ==================
 ```
 
-+ Add some content about the project e.g.
+--- /task ---
+
+--- task ---
+
+Add some content about the project e.g.
 
 ```
 Deck of cards is set of classes for creating playing cards.
 ```
 
-+ Perhaps add a hyperlink to the projects sourcecode.
+--- /task ---
+
+--- task ---
+
+Perhaps add a hyperlink to the projects sourcecode.
 
 ```
 You can create this project yourself by visiting `this page <https://projects.raspberrypi.org/en/projects/deck-of-cards>`_.
 ```
+
+--- /task ---
 
 --- collapse ---
 
@@ -55,7 +71,9 @@ Please visit the `raspberry pi`_.
 
 --- /collapse ---
 
-+ When you finished creating your `about` page add it to the `index.rst` file.
+--- task ---
+
+When you have finished creating your `about` page add it to the `index.rst` file.
 
 ```
 Welcome to card's documentation!
@@ -69,8 +87,18 @@ Welcome to card's documentation!
    code
 ```
 
-+ Rebuild your project to see your new page.
+--- /task ---
+
+--- task ---
+
+Rebuild your project to see your new page.
 
 ![project about page](images/project_about_page.PNG)
 
-+ Add a 2nd page to your project e.g. a **faq** page.
+--- /task ---
+
+--- task ---
+
+Add a 2nd page to your project e.g. a **faq** page.
+
+--- /task ---

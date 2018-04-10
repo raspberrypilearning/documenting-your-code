@@ -6,15 +6,27 @@ A crucial step in sharing your code is creating documentation which helps people
 
 You will be documenting some example code based on the [deck of cards](https://projects.raspberrypi.org/en/projects/deck-of-cards){:target="_blank"} project. It is not essential you have completed the *deck of cards* project but it would be useful so you can understand what the code does.
 
-+ Download the project code [card.py](resources/card.py)
+--- task ---
 
-+ Open the downloaded `card.py` program using Python 3 IDLE
+Download the project code [card.py](resources/card.py)
+
+--- /task ---
+
+--- task ---
+
+Open the downloaded `card.py` program using Python 3 IDLE
+
+--- /task ---
+
+--- task ---
 
 Look over the code, you will see there are 2 classes, `Card` and `Deck`.
 
 `Card` represents a single playing card, while `Deck` is a collection of `Cards` stacked in an order.
 
 At the bottom of the program, a `deck` object is created from `Deck` and a description is printed to the screen.
+
+--- /task ---
 
 --- collapse ---
 
@@ -91,9 +103,12 @@ print(deck)
 
 --- /collapse ---
 
-+ Run the `card.py` program
+--- task ---
+
+Run the `card.py` program
 
 You should see a message printed to the screen describing the deck of cards.
 
 ![deck of 52 cards](images/deckofcards.png)
 
+--- /task ---

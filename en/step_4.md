@@ -25,7 +25,9 @@ def helloworld():
     print("hello world")
 ```
 
-+ The first step is to add a *docstring* to the Card class which describes the class and what it is for.
+--- task ---
+
+The first step is to add a *docstring* to the Card class which describes the class and what it is for.
 
 ```python
 class Card:
@@ -38,7 +40,11 @@ class Card:
         self._number = number
 ```
 
-+ Add a suitable *docstring* to the Deck class to describe it.
+--- /task ---
+
+--- task ---
+
+Add a suitable *docstring* to the Deck class to describe it.
 
 --- hints ---
 
@@ -71,3 +77,4 @@ class Deck:
 
 --- /hints ---
 
+--- /task ---

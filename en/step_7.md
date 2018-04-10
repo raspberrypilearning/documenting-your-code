@@ -10,19 +10,33 @@ You create content for your Sphinx website by writing text files which are forma
 
 ### Install Sphinx
 
-+ Open a command prompt
+--- task ---
 
-+ Use `pip3` to install the `Sphinx` module
+Open a command prompt
+
+--- /task ---
+
+--- task ---
+
+Use `pip3` to install the `Sphinx` module
 
 [[[generic-python-installing-with-pip]]]
+
+--- /task ---
 
 ### Create a Sphinx project site
 
 Sphinx includes a quick start utility which will create a template sphinx project. 
 
-+ Navigate to your project directory
+--- task ---
 
-+ Run the sphinx quick start utility
+Navigate to your project directory
+
+--- /task ---
+
+--- task ---
+
+Run the sphinx quick start utility
 
 ```bash
 sphinx-quickstart
@@ -59,6 +73,8 @@ It will prompt you to answer a lot of questions, most of which can be left as th
 | githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]: | Yes | n |
 | Create Makefile? (y/n) [y]: | Yes | y |
 | Create Windows command file? (y/n) [y]: | Yes | y |
+
+--- /task ---
 
 The sphinx quick start program will created a number of files and directory's which is where your documentation will be created.
 
