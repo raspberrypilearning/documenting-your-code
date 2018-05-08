@@ -1,79 +1,92 @@
-## Creating pages
+## Adding your code documentation
 
-As well as having pages which describe your code you can include your own pages.
+### Configure conf.py
 
-All pages are formatted using the simple but powerful markup language [reStructuredText(ReST)](http://docutils.sourceforge.net/rst.html), this [quick ref](http://www.sphinx-doc.org/en/stable/rest.html) show's to use the most common functions.
-
-To get started lets create an **about** page which will display some details about the project and where to find out more information.
+To include the code documentation, Sphinx needs to know where to find it, you do this by modifying the `conf.py` file.
 
 --- task ---
 
-Create a new file called `about.rst`.
+Open `conf.py`
 
 --- /task ---
 
 --- task ---
 
-Add a title to the page:
+Find this section of code.
 
-```
-About this project
-==================
-```
-
---- /task ---
-
---- task ---
-
-Add some content about the project e.g.
-
-```
-Deck of cards is set of classes for creating playing cards.
+```python
+# import os
+# import sys
+# sys.path.insert(0, os.path.abspath('.'))
 ```
 
 --- /task ---
 
 --- task ---
 
-Perhaps add a hyperlink to the projects sourcecode.
+Uncomment the code by removing the `#` characters.
 
-```
-You can create this project yourself by visiting `this page <https://projects.raspberrypi.org/en/projects/deck-of-cards>`_.
+```python
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 ```
 
 --- /task ---
 
---- collapse ---
+This adds the current directory `.` to Sphinx's configuration so it can find your code files.
 
----
-title: URLs in ReST
----
-
-The structure of the URL markup is very specific.
-
-The text for the URL, and the URL itself is between 2 back ticks and is terminated with an underscore `_`.
-
-```
-`link_text <url>`_
-```
-
-It is important to put a space between the `link_text` and the `<url>`.
-
-This type of markup is referred to as **in line** because it is within the text.
-
-You can also create seperate url definitions and refer to them in the text - this is useful if you want to link to the same URL twice.
-
-```
-Please visit the `raspberry pi`_.
-
-.. _raspberry pi: http://raspberrypi.org/
-```
-
---- /collapse ---
+### Add your code documentation
 
 --- task ---
 
-When you have finished creating your `about` page add it to the `index.rst` file.
+Create a new file called `code.rst` which will be your code documentation page.
+
+--- /task ---
+
+--- task ---
+
+Add a title to the page.
+
+```
+Code docs
+=========
+```
+
+--- /task ---
+
+--- task ---
+
+Add the following code to import the `card.py` module.
+
+```
+.. module:: card
+```
+
+--- /task ---
+
+--- task ---
+
+Next add this code to automatically generate the documentation for the `Card` class.
+
+```
+.. autoclass:: Card
+    :members:
+```
+
+--- /task ---
+
+In order for your `code.rst` page to appear on your project website, it needs to be added to the index.
+
+--- task ---
+
+Open `index.rst`.
+
+--- /task ---
+
+--- task ---
+
+Modify `index.rst`, to add the `code` page under the table of contents `..toctree::`, so the code looks like this:
 
 ```
 Welcome to card's documentation!
@@ -83,7 +96,6 @@ Welcome to card's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   about
    code
 ```
 
@@ -91,14 +103,77 @@ Welcome to card's documentation!
 
 --- task ---
 
-Rebuild your project to see your new page.
+Re-build your project website.
 
-![project about page](images/project_about_page.PNG)
+```bash
+make html
+```
+--- /task ---
+
+--- task ---
+
+Re-open the `index.html` file in the `_build/html` directory.
+
+--- /task ---
+
+Your code page will now appear in the index.
+
+![code on the index](images/code_project_index.PNG)
+
+When you open the code page you will see your auto-generated documentation about the code class.
+
+![auto generated code](images/code_project_generated_docs.PNG)
+
+--- task ---
+
+Update `code.rst` to auto generate the documentation for the `Deck` class.
+
+--- hints ---
+
+--- hint ---
+
+Repeat the step where you used `autoclass` to generate the docs for the `Card` class.
+
+--- /hint ---
+
+--- hint ---
+
+You will need to add this code into `code.rst`:
+
+```
+.. autoclass:: Deck
+    :members:
+```
+
+--- /hint ---
+
+--- hint ---
+
+The `code.rst` file should look like this:
+
+```
+Code docs
+=========
+
+.. module:: card
+
+.. autoclass:: Card
+    :members:
+
+.. autoclass:: Deck
+    :members:
+```
+
+--- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
 --- task ---
 
-Add a 2nd page to your project e.g. a **faq** page.
+Re-build your website and check the code page now includes documentation for `Card` and `Deck`.
+
+![deck auto generated code](images/code_project_generated_docs2.PNG)
 
 --- /task ---

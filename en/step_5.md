@@ -12,11 +12,15 @@ Open a terminal (Mac/Linux) or command prompt (Windows)
 
 Navigate to the folder which contains your `card.py` program
 
+```bash
+cd name_of_folder
+```
+
 --- /task ---
 
 --- task ---
 
-Enter the command to run the pydoc module and create the documentation
+Enter the command to run the pydoc module and create the documentation.
 
 --- collapse ---
 

@@ -1,6 +1,6 @@
 ## Getting Started
 
-Imagine you have created a software masterpiece which will make countless coders lives a little easier, its available, its brilliant, but nobody is using it because they  don't know how too!
+Imagine you have created a software masterpiece which will make countless coders live's a little easier, its available, its brilliant, but nobody is using it because they  don't know how too!
 
 A crucial step in sharing your code is creating documentation which helps people understand what it does, how it works and how to use it.
 

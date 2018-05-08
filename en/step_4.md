@@ -2,7 +2,7 @@
 
 If you look at the `card.py` program you will notice that there is no additional information in the code which describes how it works or how to use it. 
 
-This is a small program so you could probably review the code and *reverse engineer* it to work out how the interface works and what each function does, but what if this program had a thousand lines of code? Or a million? Very quickly it wouldn't be possible to work it out and you would need some more information.
+This is a small program so you could probably review the code and work out how the interface works and what each function does, but what if this program had a thousand lines of code? Or a million? Very quickly it wouldn't be possible to work it out and you would need some more information.
 
 Python allows you add information about your program into the code using [DocStrings](https://www.python.org/dev/peps/pep-0257/#what-is-a-docstring) and these are the basis for creating documentation for your code.
 
@@ -27,7 +27,7 @@ def helloworld():
 
 --- task ---
 
-The first step is to add a *docstring* to the Card class which describes the class and what it is for.
+The first step is to add a *docstring* to the **Card** class which describes the class and what it is for.
 
 ```python
 class Card:
@@ -44,7 +44,7 @@ class Card:
 
 --- task ---
 
-Add a suitable *docstring* to the Deck class to describe it.
+Add a suitable *docstring* to the **Deck** class to describe it.
 
 --- hints ---
 

@@ -2,7 +2,7 @@
 
 ## Challenge: Complete the documentation
 
-Can you add *docstrings* to the all the methods and properties of the Card and Deck classes to describe what they do?
+Can you add *docstrings* to all the methods and properties of the Card and Deck classes to describe what they do?
 
 --- hints ---
 

@@ -12,4 +12,4 @@
 
 ### Additional Resources
 
-+ There is an example project website available to [download](resources\website.zip)
++ There is an example project website available to [download](resources/website.zip)
