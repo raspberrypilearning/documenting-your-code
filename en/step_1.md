@@ -1,10 +1,10 @@
 ## Introduction
 
-Document your code and create a site for your project.
+To share the programs you've written and help people use them, you will create a website for your projects that documents your code.
 
 ### What you will make
 
-You will create a website for your project which automatically creates documentation from your code.
+You will create a website for your project that automatically creates documentation from your code.
 
 ![project website](images/project_website.PNG)
 
