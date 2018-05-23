@@ -2,7 +2,7 @@
 
 As well as having pages that describe your code, you can include your own pages on the project website.
 
-All pages are formatted using the simple but powerful markup language [reStructuredText(ReST)](http://docutils.sourceforge.net/rst.html). This [primer page](http://www.sphinx-doc.org/en/stable/rest.html) shows you how to use the most common syntax elements.
+All pages need to be formatted using the ReST markup language. This [primer page](http://www.sphinx-doc.org/en/stable/rest.html) will show you how to use the most common ReST syntax elements.
 
 To get started, let's create an About page that will display some details about the project and where to find more information.
 
