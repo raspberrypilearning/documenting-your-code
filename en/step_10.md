@@ -91,7 +91,11 @@ Welcome to card's documentation!
 
 --- task ---
 
-Rebuild your project to see your new page.
+Rebuild your project to see your new page using the command:
+
+```bash
+make html
+```
 
 ![project about page](images/project_about_page.PNG)
 

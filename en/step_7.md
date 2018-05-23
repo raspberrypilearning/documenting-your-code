@@ -44,9 +44,14 @@ sphinx-quickstart
 
 ![run sphinx](images/run_sphinx.PNG)
 
-It will prompt you to answer a lot of questions, most of which can be left as the default by simple pressing <kbd>Enter</kbd>.
+--- /task ---
 
-+ Complete the Sphinx quick-start questionaire using the following responses:
+--- task ---
+
+Complete the Sphinx quick-start questionaire using the following responses.
+
+_There are a lot of questions but most of which can be left as the default by simple pressing <kbd>Enter</kbd>._
+
 
 | Question | Use Default | Response 
 | - | - | - |

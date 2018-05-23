@@ -2,7 +2,7 @@
 
 If you look through the `card.py` program, you will notice that there is no additional information in the code that describes how it works or how to use it. 
 
-This is a small program, so you could probably review the code and work out how the interface works and what each function does. But what if this program had a thousand lines of code? Or a million? Then it would be difficult to possible to work out how it works, so you would need some additional information.
+This is a small program, so you could probably review the code and work out how the interface works and what each function does. But what if this program had a thousand lines of code? Or a million? Then it would be difficult or impossible to work out how it works, so you would need some additional information.
 
 Python allows you to add information about your program into the code using [**docstrings**](https://www.python.org/dev/peps/pep-0257/#what-is-a-docstring), and these are the basis for creating documentation for your code.
 
