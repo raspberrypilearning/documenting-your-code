@@ -4,7 +4,7 @@ Now that your code contains some information about itself in the form of docstri
 
 --- task ---
 
-Open a terminal window (macOS/Linux) or command prompt window (Windows).
+Open a terminal window (Raspbery Pi/Linux PC/Mac) or command prompt window (Windows PC).
 
 --- /task ---
 
@@ -25,7 +25,7 @@ Enter the command to run the `pydoc` module to create documentation.
 --- collapse ---
 
 ---
-title: Windows
+title: Windows PC
 ---
 
 ```bash
@@ -41,7 +41,7 @@ If you get an error when you run this command, take a look at our [Using pip on 
 --- collapse ---
 
 ---
-title: Linux/macOS
+title: Raspbery Pi/Linux PC/Mac
 ---
 
 ```bash
