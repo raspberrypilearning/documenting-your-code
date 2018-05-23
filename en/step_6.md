@@ -1,14 +1,14 @@
 --- challenge ---
 
-## Challenge: Complete the documentation
+## Challenge: complete the documentation
 
-Can you add *docstrings* to all the methods and properties of the Card and Deck classes to describe what they do?
+Can you add docstrings to all the methods and properties of the `Card` and `Deck` classes to describe what they do?
 
 --- hints ---
 
 --- hint ---
 
-You add a *docstring* directly under the methods definition `def`.
+Add a docstring directly under the methods definition `def`.
 
 ```python
     def shuffle(self):
@@ -20,7 +20,7 @@ You add a *docstring* directly under the methods definition `def`.
 
 --- hint ---
 
-You should only add a docstring to a properties **getter** which describes what the property is.
+Only add a docstring to a properties **getter** that describes what the property is — the **setter** doesn't need one.
 
 ```python
     @property
@@ -37,12 +37,12 @@ You should only add a docstring to a properties **getter** which describes what 
             print("That's not a suit!")
 ```
 
-Adding a docstring to the setter will not cause an error but it will be ignored when generating the documentation.
+Adding a docstring to the setter will not cause an error, but `pydoc` will ignore it when generating the documentation.
 
 --- /hint ---
 
 --- /hints ---
 
-When you have added *docstrings* to your code you can re-run the [pydoc command](5) to regenerate the documentation.
+When you have added docstrings to your code, you can run the `pydoc` command again to generate updated documentation.
 
 --- /challenge ---
