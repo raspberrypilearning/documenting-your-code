@@ -1,6 +1,6 @@
 ## Build your website
 
-To view your project website, you will need to **build** it. This converts all the project files into HTML web pages.
+To view your project website, you will need to **build** it. This converts all the project files into HTML files.
 
 + Run the following command to build your website.
 
