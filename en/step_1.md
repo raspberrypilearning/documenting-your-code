@@ -14,7 +14,7 @@ You will create a website for your project that automatically creates documentat
 
 + How to automatically generate documentation
 
-+ How to create ReStructured Text
++ How to use reStructuredText
 
 + How to create a project website using Sphinx
 
