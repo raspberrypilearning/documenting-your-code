@@ -29,7 +29,7 @@ At the bottom of the program, a `deck` object is created from `Deck`, and a desc
 --- collapse ---
 
 ---
-title: `card.py`
+title: card.py
 ---
 
 ```python
