@@ -8,8 +8,8 @@
 
 + Python 3
 
-+ Sphinx - you will install this later in the project
++ Sphinx — you will install this later in the project
 
-### Additional Resources
+### Additional resources
 
-+ There is an example project website available to [download](resources/website.zip)
++ An example project website is available for download [here](resources/website.zip).
