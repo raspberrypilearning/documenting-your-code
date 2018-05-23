@@ -2,17 +2,17 @@
 
 ### Configure conf.py
 
-To include the code documentation, Sphinx needs to know where to find it, you do this by modifying the `conf.py` file.
+To include the code documentation, Sphinx needs to know where to find it. You tell Sphinx this by modifying the `conf.py` file.
 
 --- task ---
 
-Open `conf.py`
+Open `conf.py`.
 
 --- /task ---
 
 --- task ---
 
-Find this section of code.
+Find this section of code:
 
 ```python
 # import os
@@ -24,7 +24,7 @@ Find this section of code.
 
 --- task ---
 
-Uncomment the code by removing the `#` characters.
+Uncomment this code by removing the `#` characters.
 
 ```python
 import os
@@ -40,7 +40,7 @@ This adds the current directory `.` to Sphinx's configuration so it can find you
 
 --- task ---
 
-Create a new file called `code.rst` which will be your code documentation page.
+Create a new file called `code.rst`. This will be your code documentation page.
 
 --- /task ---
 
@@ -67,7 +67,7 @@ Add the following code to import the `card.py` module.
 
 --- task ---
 
-Next add this code to automatically generate the documentation for the `Card` class.
+Next, add this code to automatically generate the documentation for the `Card` class:
 
 ```
 .. autoclass:: Card
@@ -86,7 +86,7 @@ Open `index.rst`.
 
 --- task ---
 
-Modify `index.rst`, to add the `code` page under the table of contents `..toctree::`, so the code looks like this:
+Modify `index.rst` to add the `code` page under the table of contents `..toctree::` — the code should look like this:
 
 ```
 Welcome to card's documentation!
@@ -112,7 +112,7 @@ make html
 
 --- task ---
 
-Re-open the `index.html` file in the `_build/html` directory.
+Re-open the `index.html` file in the `_build/html` directory using your browser.
 
 --- /task ---
 
@@ -120,13 +120,13 @@ Your code page will now appear in the index.
 
 ![code on the index](images/code_project_index.PNG)
 
-When you open the code page you will see your auto-generated documentation about the code class.
+When you open the code page, you will see your auto-generated documentation about the `Card` class.
 
 ![auto generated code](images/code_project_generated_docs.PNG)
 
 --- task ---
 
-Update `code.rst` to auto generate the documentation for the `Deck` class.
+Update `code.rst` to auto-generate the documentation for the `Deck` class.
 
 --- hints ---
 
@@ -172,7 +172,7 @@ Code docs
 
 --- task ---
 
-Re-build your website and check the code page now includes documentation for `Card` and `Deck`.
+Re-build your website and check that the code page now includes documentation for `Card` and `Deck`.
 
 ![deck auto generated code](images/code_project_generated_docs2.PNG)
 
