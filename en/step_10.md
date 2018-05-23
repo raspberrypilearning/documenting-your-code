@@ -1,10 +1,10 @@
 ## Creating pages
 
-As well as having pages which describe your code you can include your own pages.
+As well as having pages that describe your code, you can include your own pages on the project website.
 
-All pages are formatted using the simple but powerful markup language [reStructuredText(ReST)](http://docutils.sourceforge.net/rst.html), this [quick ref](http://www.sphinx-doc.org/en/stable/rest.html) show's to use the most common functions.
+All pages are formatted using the simple but powerful markup language [reStructuredText(ReST)](http://docutils.sourceforge.net/rst.html). This [primer page](http://www.sphinx-doc.org/en/stable/rest.html) shows you how to use the most common syntax elements.
 
-To get started lets create an **about** page which will display some details about the project and where to find out more information.
+To get started, let's create an About page that will display some details about the project and where to find more information.
 
 --- task ---
 
@@ -25,17 +25,17 @@ About this project
 
 --- task ---
 
-Add some content about the project e.g.
+Add some content about the project, for example:
 
 ```
-Deck of cards is set of classes for creating playing cards.
+Deck of cards is a set of classes for creating playing cards.
 ```
 
 --- /task ---
 
 --- task ---
 
-Perhaps add a hyperlink to the projects sourcecode.
+Perhaps add a hyperlink to the project's source code:
 
 ```
 You can create this project yourself by visiting `this page <https://projects.raspberrypi.org/en/projects/deck-of-cards>`_.
@@ -49,19 +49,19 @@ You can create this project yourself by visiting `this page <https://projects.ra
 title: URLs in ReST
 ---
 
-The structure of the URL markup is very specific.
+The structure of the URL markup is very specific in ReST.
 
-The text for the URL, and the URL itself is between 2 back ticks and is terminated with an underscore `_`.
++ The text for the link and the URL itself need to be in between two back ticks, the second of which is followed by an underscore `_`, like this:
 
 ```
 `link_text <url>`_
 ```
 
-It is important to put a space between the `link_text` and the `<url>`.
+**Note:** it is important to put a space between the `link_text` and the `<url>`.
 
-This type of markup is referred to as **in line** because it is within the text.
+This type of markup is referred to as **in-line**, because it is within the text.
 
-You can also create seperate url definitions and refer to them in the text - this is useful if you want to link to the same URL twice.
++ You can also create separate URL definitions and then refer to them anywhere within the text — this is useful if you want to link to the same URL twice.
 
 ```
 Please visit the `raspberry pi`_.
@@ -73,7 +73,7 @@ Please visit the `raspberry pi`_.
 
 --- task ---
 
-When you have finished creating your `about` page add it to the `index.rst` file.
+When you have finished creating your `about.rst` page, add it to the `index.rst` file.
 
 ```
 Welcome to card's documentation!
@@ -99,6 +99,6 @@ Rebuild your project to see your new page.
 
 --- task ---
 
-Add a 2nd page to your project e.g. a **faq** page.
+Add a second page to your project site, e.g. for FAQs.
 
 --- /task ---
