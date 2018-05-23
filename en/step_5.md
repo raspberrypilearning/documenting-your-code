@@ -41,7 +41,7 @@ If you get an error when you run this command, take a look at our [Using pip on 
 --- collapse ---
 
 ---
-title: Raspbery Pi/Linux PC/Mac
+title: Raspberry Pi/Linux PC/Mac
 ---
 
 ```bash
