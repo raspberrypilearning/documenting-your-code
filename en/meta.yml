@@ -1,6 +1,6 @@
 title: Documenting your code
 hero_image: images/banner.png
-description: A project which shows how to document Python code
+description: Learn how to document Python code and create websites for software projects
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: false
@@ -17,7 +17,7 @@ last_tested: 2017-01-01
 steps: 
 - title: Introduction
 - title: What you will need
-- title: Getting Started
+- title: Getting started
 - title: Documenting your code
 - title: Generating documentation
 - title: Challenge
