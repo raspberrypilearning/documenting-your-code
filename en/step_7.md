@@ -1,24 +1,24 @@
-## Creating a Project website with Sphinx
+## Creating a project website with Sphinx
 
-Using pydoc and docstrings is a great way to create structured documentation about your code but it is limited and you cant add additional information and content.
+Using `pydoc` and docstrings is a great way to create structured documentation about your code, but it has limits because you can't add additional information and content.
 
-By creating a website for your project, such as the one for [gpiozero](https://gpiozero.readthedocs.io), you can add a lot more information such as recipes, FAQ's, images and code snippets as well as a documentation about your code.
+By creating a website for your project, similar to the one for [GPIO Zero](https://gpiozero.readthedocs.io) for example, you can add a lot more information in addition to documentation, such as recipes, FAQs, images, and code snippets as well as a documentation about your code.
 
-You will use [Sphinx](http://www.sphinx-doc.org) to make your project website which was originally created for documenting the Python language.
+You will use [Sphinx](http://www.sphinx-doc.org) to make your project website. This tool was originally created for documenting the Python language.
 
-You create content for your Sphinx website by writing text files which are formatted using the [reStructuredText](http://docutils.sourceforge.net/rst.html) markup language.
+To create content for your Sphinx website, you write text files formatted using the [reStructuredText](http://docutils.sourceforge.net/rst.html) markup language.
 
 ### Install Sphinx
 
 --- task ---
 
-Open a command prompt
+Open a terminal or command prompt window.
 
 --- /task ---
 
 --- task ---
 
-Use `pip3` to install the `Sphinx` module
+Use `pip3` to install the `Sphinx` module.
 
 [[[generic-python-installing-with-pip]]]
 
@@ -26,17 +26,17 @@ Use `pip3` to install the `Sphinx` module
 
 ### Create a Sphinx project site
 
-Sphinx includes a quick start utility which will create a template sphinx project. 
+Sphinx includes a quick-start utility that creates a template Sphinx project. 
 
 --- task ---
 
-Navigate to your project directory
+Navigate to your project directory.
 
 --- /task ---
 
 --- task ---
 
-Run the sphinx quick start utility
+Run the Sphinx quick-start utility by running:
 
 ```bash
 sphinx-quickstart
@@ -44,9 +44,9 @@ sphinx-quickstart
 
 ![run sphinx](images/run_sphinx.PNG)
 
-It will prompt you to answer a lot of questions, most of which can be left as the default by simple pressing Enter.
+It will prompt you to answer a lot of questions, most of which can be left as the default by simple pressing <kbd>Enter</kbd>.
 
-+ Complete the Sphinx quick start questionaire using the following responses:
++ Complete the Sphinx quick-start questionaire using the following responses:
 
 | Question | Use Default | Response 
 | - | - | - |
@@ -76,7 +76,7 @@ It will prompt you to answer a lot of questions, most of which can be left as th
 
 --- /task ---
 
-The sphinx quick start program will created a number of files and directory's which is where your documentation will be created.
+The Sphinx quick-start program will created a number of files and directorys, which is where your documentation will be created.
 
 --- collapse ---
 
@@ -91,18 +91,18 @@ title: Windows file structure
 --- collapse ---
 
 ---
-title: Linux / MacOS file structure
+title: Linux/macOS file structure
 ---
 
 ![sphinx files linux](images/sphinx_files_linux.PNG)
 
 --- /collapse ---
 
-The key files & directory are:
+The key files and directory are:
 
-+ conf.py - this is Sphinx configuration file which describes how your documentation should be created
++ `conf.py` — this is a Sphinx configuration file that describes how your documentation should be created
 
-+ index.rst - this is the *main* page and index of your documentation
++ `index.rst` — this is the **main** page and index of your documentation
 
-+ _build - your documentation will be created in this directory
++ `_build` — your documentation will be created in this directory
 
