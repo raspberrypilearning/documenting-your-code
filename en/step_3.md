@@ -1,37 +1,35 @@
-## Getting Started
+## Getting started
 
-Imagine you have created a software masterpiece which will make countless coders live's a little easier, its available, its brilliant, but nobody is using it because they  don't know how too!
+Imagine you've created a software masterpiece that will make countless coders' lives a little easier, and you've made it available, but nobody is using it because they don't know how to!
 
-A crucial step in sharing your code is creating documentation which helps people understand what it does, how it works and how to use it.
+When you share your code, a crucial step is creating documentation that helps people understand what the code does, how it works, and how they can use it.
 
-You will be documenting some example code based on the [deck of cards](https://projects.raspberrypi.org/en/projects/deck-of-cards){:target="_blank"} project. It is not essential you have completed the *deck of cards* project but it would be useful so you can understand what the code does.
+You will be documenting some example code based on our [Deck of cards](https://projects.raspberrypi.org/en/projects/deck-of-cards){:target="_blank"} project. It's not essential for you to have completed this project, but it would be useful so you understand what the code does.
 
 --- task ---
 
-Download the project code [card.py](resources/card.py)
+Download the project code [`card.py`](resources/card.py).
 
 --- /task ---
 
 --- task ---
 
-Open the downloaded `card.py` program using Python 3 IDLE
+Open the downloaded `card.py` program using Python 3 IDLE.
 
 --- /task ---
 
 --- task ---
 
-Look over the code, you will see there are 2 classes, `Card` and `Deck`.
+Look over the code. You will see that there are two classes: `Card` and `Deck`. `Card` represents a single playing card, while `Deck` is a collection of `Cards` stacked in order.
 
-`Card` represents a single playing card, while `Deck` is a collection of `Cards` stacked in an order.
-
-At the bottom of the program, a `deck` object is created from `Deck` and a description is printed to the screen.
+At the bottom of the program, a `deck` object is created from `Deck`, and a description is printed to the screen.
 
 --- /task ---
 
 --- collapse ---
 
 ---
-title: card.py
+title: `card.py`
 ---
 
 ```python
@@ -105,9 +103,9 @@ print(deck)
 
 --- task ---
 
-Run the `card.py` program
+Run the `card.py` program.
 
-You should see a message printed to the screen describing the deck of cards.
+You should see a message describing the deck of cards printed to the screen.
 
 ![deck of 52 cards](images/deckofcards.png)
 
