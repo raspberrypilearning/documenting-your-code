@@ -8,7 +8,7 @@ You will be documenting some example code based on our [Deck of cards](https://p
 
 --- task ---
 
-Download the project code [card.py](resources/card.py).
+Download the [project code](resources/card.py) called `card.py`.
 
 --- /task ---
 
