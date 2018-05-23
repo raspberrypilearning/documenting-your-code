@@ -6,7 +6,7 @@ By creating a website for your project, similar to the one for [GPIO Zero](https
 
 You will use [Sphinx](http://www.sphinx-doc.org) to make your project website. This tool was originally created for documenting the Python language.
 
-To create content for your Sphinx website, you write text files formatted using the [reStructuredText](http://docutils.sourceforge.net/rst.html) markup language.
+To create content for your Sphinx website, you will write text files formatted using simple but powerful markup language [reStructuredText(ReST)](http://docutils.sourceforge.net/rst.html).
 
 ### Install Sphinx
 
