@@ -103,7 +103,7 @@ Welcome to card's documentation!
 
 --- task ---
 
-+ Re-build your project website.
++ Rebuild your project website.
 
 ```bash
 make html
@@ -112,7 +112,7 @@ make html
 
 --- task ---
 
-+ Re-open the `index.html` file in the `_build/html` directory using your browser.
++ Reopen the `index.html` file in the `_build/html` directory using your browser.
 
 --- /task ---
 
@@ -172,7 +172,7 @@ Code docs
 
 --- task ---
 
-+ Re-build your website and check that the code page now includes documentation for `Card` and `Deck`.
++ Rebuild your website and check that the code page now includes documentation for `Card` and `Deck`.
 
 ![deck auto generated code](images/code_project_generated_docs2.PNG)
 
