@@ -96,7 +96,7 @@ title: Windows file structure
 --- collapse ---
 
 ---
-title: Linux/macOS file structure
+title: Raspberry Pi/Linux PC/Mac file structure
 ---
 
 ![sphinx files linux](images/sphinx_files_linux.PNG)
