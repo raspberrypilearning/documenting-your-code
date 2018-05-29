@@ -12,13 +12,13 @@ make html
 
 ![make html](images/build_make_html.PNG)
 
-This will create a `html` folder in the `_build` directory that will hold the project website.
+This will create a `html` folder in the `_build` directory that will hold the project website files.
 
 --- /task ---
 
 --- task ---
 
-Open the `index.html` file in the `_build/html` directory with a web browser.
+Open the `index.html` file in the `_build/html` directory using a web browser.
 
 You will see an empty project site:
 
