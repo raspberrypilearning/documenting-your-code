@@ -1,8 +1,8 @@
 ## Introduction
 
-Imagine you've created a software masterpiece that will make countless coders' lives a little easier, and you've made it available, but nobody is using it because they don't know how to!
+When you've written a useful piece of code and want to share it with other programmers, a crucial step is creating documentation that helps people understand what the code does, how it works, and how they can use it.
 
-To share the programs you've written and help people use them, you will create a website that documents your project code.
+To share the programs you've written and help people use them, you will create a website that documents code.
 
 ### What you will make
 
