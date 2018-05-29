@@ -105,9 +105,9 @@ title: Linux/macOS file structure
 
 The key files and directory are:
 
-+ `conf.py` — this is a Sphinx configuration file that describes how your documentation should be created
++ `conf.py` — a Sphinx configuration file that describes how your documentation should be created
 
-+ `index.rst` — this is the **main** page and index of your documentation
++ `index.rst` — the **main** page and index of your documentation
 
 + `_build` — the directory where your documentation will be created
 
