@@ -2,11 +2,11 @@
 
 If you look through the `card.py` program, you will notice that there is no additional information in the code that describes how it works or how to use it. 
 
-This is a small program, so you could probably review the code and work out how the interface works and what each function does. But what if this program had a thousand lines of code? Or a million? Then it would be difficult or impossible to work out how it works, so you would need some additional information.
+The program is small, so you could probably review the code and work out how the interface works and what each function does. But what about programs that have a thousand lines of code? Or even a million? It would be extremely difficult and time-consuming to figure out how such big programs work without some additional information.
 
-Python allows you to add information about your program into the code using [**docstrings**](https://www.python.org/dev/peps/pep-0257/#what-is-a-docstring), and these are the basis for creating documentation for your code.
+Python allows you to add information about your program into the code using [**docstrings**](https://www.python.org/dev/peps/pep-0257/#what-is-a-docstring). Docstrings are the basis for creating documentation for your code.
 
-You add docstrings to code using triple double-quotes `"""` at the start of a module, class, or function:
+You add docstrings at the start of a module, class, or function in the form of a string framed by three double quotation marks `"""` on either side:
 
 ```python
 def helloworld():
