@@ -1,20 +1,20 @@
 ## Creating pages
 
-As well as having pages that describe your code, you can include your own pages on the project website.
+In addition to pages that describe your code, you can include pages with other content on your project website.
 
-All pages need to be formatted using the ReST markup language. This [primer page](http://www.sphinx-doc.org/en/stable/rest.html) will show you how to use the most common ReST syntax elements.
+All the pages you want to add need to be formatted using the ReST markup language. [This primer](http://www.sphinx-doc.org/en/stable/rest.html) will show you how to use the most common ReST syntax elements.
 
 To get started, let's create an About page that will display some details about the project and where to find more information.
 
 --- task ---
 
-Create a new file called `about.rst`.
++ Create a new file called `about.rst`.
 
 --- /task ---
 
 --- task ---
 
-Add a title to the page:
++ Add a title to the page:
 
 ```
 About this project
@@ -25,7 +25,7 @@ About this project
 
 --- task ---
 
-Add some content about the project, for example:
++ Add some text about the project, for example:
 
 ```
 Deck of cards is a set of classes for creating playing cards.
@@ -35,7 +35,7 @@ Deck of cards is a set of classes for creating playing cards.
 
 --- task ---
 
-Perhaps add a hyperlink to the project's source code:
++ Perhaps add a hyperlink to the project's source code:
 
 ```
 You can create this project yourself by visiting `this page <https://projects.raspberrypi.org/en/projects/deck-of-cards>`_.
@@ -73,7 +73,7 @@ Please visit the `raspberry pi`_.
 
 --- task ---
 
-When you have finished creating your `about.rst` page, add it to the `index.rst` file.
++ When you have finished creating your `about.rst` page, add it to the `index.rst` file.
 
 ```
 Welcome to card's documentation!
@@ -91,7 +91,7 @@ Welcome to card's documentation!
 
 --- task ---
 
-Rebuild your project to see your new page using the command:
++ Rebuild your project to see your new page using the command:
 
 ```bash
 make html
@@ -103,6 +103,6 @@ make html
 
 --- task ---
 
-Add a second page to your project site, e.g. for FAQs.
++ Add a second page to your project site, e.g. with FAQs.
 
 --- /task ---
