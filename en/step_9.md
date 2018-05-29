@@ -2,17 +2,17 @@
 
 ### Configure conf.py
 
-To include the code documentation, Sphinx needs to know where to find it. You tell Sphinx this by modifying the `conf.py` file.
+So it can include the code documentation, Sphinx needs to know where to find it. You tell Sphinx this by modifying the `conf.py` file.
 
 --- task ---
 
-Open `conf.py`.
++ Open `conf.py`.
 
 --- /task ---
 
 --- task ---
 
-Find this section of code:
++ Find this section of code:
 
 ```python
 # import os
@@ -24,7 +24,7 @@ Find this section of code:
 
 --- task ---
 
-Uncomment this code by removing the `#` characters.
++ Uncomment this code by removing the `#` characters.
 
 ```python
 import os
@@ -40,13 +40,13 @@ This adds the current directory `.` to Sphinx's configuration so it can find you
 
 --- task ---
 
-Create a new file called `code.rst`. This will be your code documentation page.
++ Create a new file called `code.rst`. This will be your code documentation page.
 
 --- /task ---
 
 --- task ---
 
-Add a title to the page.
++ Add a title to the page:
 
 ```
 Code docs
@@ -57,7 +57,7 @@ Code docs
 
 --- task ---
 
-Add the following code to import the `card.py` module.
++ Add the following code to import the `card.py` module.
 
 ```
 .. module:: card
@@ -67,7 +67,7 @@ Add the following code to import the `card.py` module.
 
 --- task ---
 
-Next, add this code to automatically generate the documentation for the `Card` class:
++ Next, add this code to automatically generate the documentation for the `Card` class:
 
 ```
 .. autoclass:: Card
@@ -80,13 +80,13 @@ In order for your `code.rst` page to appear on your project website, it needs to
 
 --- task ---
 
-Open `index.rst`.
++ Open `index.rst`.
 
 --- /task ---
 
 --- task ---
 
-Modify `index.rst` to add the `code` page under the table of contents `..toctree::` — the code should look like this:
++ Modify `index.rst` to add the `code` page under the table of contents `..toctree::` — the code should look like this:
 
 ```
 Welcome to card's documentation!
@@ -103,7 +103,7 @@ Welcome to card's documentation!
 
 --- task ---
 
-Re-build your project website.
++ Re-build your project website.
 
 ```bash
 make html
@@ -112,7 +112,7 @@ make html
 
 --- task ---
 
-Re-open the `index.html` file in the `_build/html` directory using your browser.
++ Re-open the `index.html` file in the `_build/html` directory using your browser.
 
 --- /task ---
 
@@ -126,19 +126,19 @@ When you open the code page, you will see your auto-generated documentation abou
 
 --- task ---
 
-Update `code.rst` to auto-generate the documentation for the `Deck` class.
++ Update `code.rst` to auto-generate the documentation for the `Deck` class.
 
 --- hints ---
 
 --- hint ---
 
-Repeat the step where you used `autoclass` to generate the docs for the `Card` class.
++ Repeat the step where you used `autoclass` to generate the docs for the `Card` class.
 
 --- /hint ---
 
 --- hint ---
 
-You will need to add this code into `code.rst`:
++ You will need to add this code into `code.rst`:
 
 ```
 .. autoclass:: Deck
@@ -172,7 +172,7 @@ Code docs
 
 --- task ---
 
-Re-build your website and check that the code page now includes documentation for `Card` and `Deck`.
++ Re-build your website and check that the code page now includes documentation for `Card` and `Deck`.
 
 ![deck auto generated code](images/code_project_generated_docs2.PNG)
 
