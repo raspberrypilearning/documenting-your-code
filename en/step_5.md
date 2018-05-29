@@ -4,13 +4,13 @@ Now that your code contains some information about itself in the form of docstri
 
 --- task ---
 
-+ Open a terminal window (Raspberry Pi/Linux PC/Mac) or command prompt window (Windows PC).
+Open a terminal window (Raspberry Pi/Linux PC/Mac) or command prompt window (Windows PC).
 
 --- /task ---
 
 --- task ---
 
-+ Navigate to the folder containing your `card.py` program.
+Navigate to the folder containing your `card.py` program.
 
 ```bash
 cd name_of_folder
@@ -20,7 +20,7 @@ cd name_of_folder
 
 --- task ---
 
-+ Enter the command to run the `pydoc` module to create documentation.
+Enter the command to run the `pydoc` module to create documentation.
 
 --- collapse ---
 
@@ -58,7 +58,7 @@ When the command has finished running, you will be presented with the message 'w
 
 --- task ---
 
-+ Open the `card.html` file using your web browser to see the documentation that's been created.
+Open the `card.html` file using your web browser to see the documentation that's been created.
 
 You will see a page that shows the `Card` and `Deck` classes, their methods, and properties, including the descriptions you added as docstrings.
 

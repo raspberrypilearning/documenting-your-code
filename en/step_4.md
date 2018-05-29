@@ -27,7 +27,7 @@ def helloworld():
 
 --- task ---
 
-+ You first task is to add a docstring to the `Card` class to describe the class and what it is for.
+Your first task is to add a docstring to the `Card` class to describe the class and what it is for.
 
 ```python
 class Card:
@@ -44,19 +44,19 @@ class Card:
 
 --- task ---
 
-+ Add a suitable docstring to the `Deck` class to describe it.
+Add a suitable docstring to the `Deck` class to describe it.
 
 --- hints ---
 
 --- hint ---
 
-+ Follow the same format as the docstring in the `Card` class.
+Follow the same format as the docstring in the `Card` class.
 
 --- /hint ---
 
 --- hint ---
 
-+ The `Deck` class represents a deck of playing cards in order.
+The `Deck` class represents a deck of playing cards in order.
 
 --- /hint ---
 

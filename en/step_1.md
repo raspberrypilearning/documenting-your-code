@@ -1,12 +1,12 @@
 ## Introduction
 
-When you've written a useful computer program and want to share it with other code, a crucial step is creating documentation that helps people understand what the code does, how it works, and how they can use it.
+When you've created a really useful project and you want to share it with other people, a crucial step is creating documentation that helps people understand what the code does, how it works, and how they can use it.
 
-To share the programs you've written and help people use them, you will create a website that documents code.
+To share the code you've created and help people use it, you will create a website that documents your project.
 
 ### What you will make
 
-This guide will teach you how to build a website for your project that automatically creates documentation for your Python programs.
+This guide will teach you how to build a website for your project that automatically creates documentation for your Python code.
 
 ![project website](images/project_website.PNG)
 
