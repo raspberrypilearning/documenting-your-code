@@ -1,10 +1,10 @@
 ## Generating documentation
 
-Now that your code contains some information about itself in the form of docstrings, you can use Python's [`pydoc`](https://docs.python.org/3/library/pydoc.html) module to automatically create HTML documentation about your code.
+Now that your code contains some information about itself in the form of docstrings, you can use Python's [pydoc](https://docs.python.org/3/library/pydoc.html) module to automatically create HTML documentation about your code.
 
 --- task ---
 
-Open a terminal window (Raspbery Pi/Linux PC/Mac) or command prompt window (Windows PC).
+Open a terminal window (Raspberry Pi/Linux PC/Mac) or command prompt window (Windows PC).
 
 --- /task ---
 
@@ -52,7 +52,7 @@ python3 -m pydoc -w ./card.py
 
 --- /collapse ---
 
-You will be presented with the message `wrote card.html` when the command completes it run.
+When the command has finished running, you will be presented with the message 'wrote card.html'. Note that `pydoc` used the name of the Python program as the name for the HTML file.
 
 --- /task ---
 
