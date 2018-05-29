@@ -22,7 +22,7 @@ This guide will teach you how to build a website for your project that automatic
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Support others in the design and build of their digital making projects.](https://www.raspberrypi.org/curriculum/strand/developer){:target="_blank"}
++ [Support others in the design and build of their digital making projects](https://www.raspberrypi.org/curriculum/strand/developer){:target="_blank"}
 
 ### Additional information for educators
 
