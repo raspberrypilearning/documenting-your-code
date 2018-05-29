@@ -8,7 +8,7 @@ Can you add docstrings to all the methods and properties of the `Card` and `Deck
 
 --- hint ---
 
-= Add a docstring directly under the methods definition `def`.
++ Add a docstring directly under the methods definition `def`.
 
 ```python
     def shuffle(self):
