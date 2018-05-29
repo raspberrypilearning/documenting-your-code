@@ -1,8 +1,8 @@
 ## Getting started
 
-When you share your code, a crucial step is creating documentation that helps people understand what the code does, how it works, and how they can use it.
+Imagine you've created a software masterpiece that will make countless coders' lives a little easier, and you've made it available, but nobody is using it because they don't know how to! Creating documentation is key when you share you're code.
 
-In this project, you will be documenting some example code based on our [Deck of cards](https://projects.raspberrypi.org/en/projects/deck-of-cards){:target="_blank"} project. It's not essential for you to have worked through this project, but it would be useful because it would help you understand what the code you'll document does.
+In this project, you will be documenting some example code based on our [Deck of cards](https://projects.raspberrypi.org/en/projects/deck-of-cards){:target="_blank"} project. It's not essential for you to have worked through this project, but it would be useful, because it would help you understand what the code you'll document does.
 
 --- task ---
 
