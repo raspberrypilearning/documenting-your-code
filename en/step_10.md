@@ -8,13 +8,13 @@ To get started, let's create an About page that will display some details about 
 
 --- task ---
 
-+ Create a new file called `about.rst`.
+Create a new file called `about.rst`.
 
 --- /task ---
 
 --- task ---
 
-+ Add a title to the page:
+Add a title to the page:
 
 ```
 About this project
@@ -25,7 +25,7 @@ About this project
 
 --- task ---
 
-+ Add some text about the project, for example:
+Add some text about the project, for example:
 
 ```
 Deck of cards is a set of classes for creating playing cards.
@@ -35,7 +35,7 @@ Deck of cards is a set of classes for creating playing cards.
 
 --- task ---
 
-+ Perhaps add a hyperlink to the project's source code:
+Perhaps add a hyperlink to the project's source code:
 
 ```
 You can create this project yourself by visiting `this page <https://projects.raspberrypi.org/en/projects/deck-of-cards>`_.
@@ -51,7 +51,7 @@ title: URLs in ReST
 
 The structure of the URL markup is very specific in ReST.
 
-+ The text for the link and the URL itself need to be in between two back ticks, the second of which is followed by an underscore `_`, like this:
+The text for the link and the URL itself need to be in between two back ticks, the second of which is followed by an underscore `_`, like this:
 
 ```
 `link_text <url>`_
@@ -61,7 +61,7 @@ The structure of the URL markup is very specific in ReST.
 
 This type of markup is referred to as **in-line**, because it is within the text.
 
-+ You can also create separate URL definitions and then refer to them anywhere within the text — this is useful if you want to link to the same URL twice.
+You can also create separate URL definitions and then refer to them anywhere within the text — this is useful if you want to link to the same URL twice.
 
 ```
 Please visit the `raspberry pi`_.
@@ -73,7 +73,7 @@ Please visit the `raspberry pi`_.
 
 --- task ---
 
-+ When you have finished creating your `about.rst` page, add it to the `index.rst` file.
+When you have finished creating your `about.rst` page, add it to the `index.rst` file.
 
 ```
 Welcome to card's documentation!
@@ -91,7 +91,7 @@ Welcome to card's documentation!
 
 --- task ---
 
-+ Rebuild your project to see your new page using the command:
+Rebuild your project to see your new page using the command:
 
 ```bash
 make html
@@ -103,6 +103,6 @@ make html
 
 --- task ---
 
-+ Add a second page to your project site, e.g. with FAQs.
+Add a second page to your project site, e.g. with FAQs.
 
 --- /task ---

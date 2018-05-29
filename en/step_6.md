@@ -8,7 +8,7 @@ Can you add docstrings to all the methods and properties of the `Card` and `Deck
 
 --- hint ---
 
-+ Add a docstring directly under the methods definition `def`.
+Add a docstring directly under the methods definition `def`.
 
 ```python
     def shuffle(self):
@@ -20,7 +20,7 @@ Can you add docstrings to all the methods and properties of the `Card` and `Deck
 
 --- hint ---
 
-+ Only add a docstring to a properties **getter** that describes what the property is — the **setter** doesn't need one.
+Only add a docstring to a properties **getter** that describes what the property is — the **setter** doesn't need one.
 
 ```python
     @property
@@ -43,6 +43,6 @@ Adding a docstring to the setter will not cause an error, but `pydoc` will ignor
 
 --- /hints ---
 
-+ When you have added docstrings to your code, you can run the `pydoc` command again to generate updated documentation.
+When you have added docstrings to your code, you can run the `pydoc` command again to generate updated documentation.
 
 --- /challenge ---
