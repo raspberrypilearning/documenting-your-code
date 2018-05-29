@@ -2,11 +2,11 @@
 
 Using `pydoc` and docstrings is a great way to create structured documentation about your code, but it has limits because you can't add additional information and content.
 
-By creating a website for your project, similar to the one for [GPIO Zero](https://gpiozero.readthedocs.io) for example, you can add a lot more information in addition to documentation, such as recipes, FAQs, images, and code snippets as well as a documentation about your code.
+On a less basic website, similar to e.g. the one for [GPIO Zero](https://gpiozero.readthedocs.io), you can add a lot more information in addition to documentation, such as recipes, FAQs, images, and code snippets.
 
-You will use [Sphinx](http://www.sphinx-doc.org) to make your project website. This tool was originally created for documenting the Python language.
+You will use [Sphinx](http://www.sphinx-doc.org) to create such a project website. This tool was originally created for documenting the Python language.
 
-To create content for your Sphinx website, you will write text files formatted using simple but powerful markup language [reStructuredText(ReST)](http://docutils.sourceforge.net/rst.html).
+To create content for your Sphinx website, you will write text files formatted using the simple but powerful markup language [reStructuredText(ReST)](http://docutils.sourceforge.net/rst.html).
 
 ### Install Sphinx
 
@@ -48,25 +48,25 @@ sphinx-quickstart
 
 --- task ---
 
-Complete the Sphinx quick-start questionaire using the following responses.
+Use the following responses to complete the quick-start questionnaire that will determine properties and settings Sphinx will use for your website.
 
-_There are a lot of questions but most of which can be left as the default by simple pressing <kbd>Enter</kbd>._
+**Note:** There's a fair number of questions — you'll use the default answer for **all but four** of them by pressing <kbd>Enter</kbd>.
 
 
-| Question | Use Default | Response 
+| Question | Use default | Response 
 | - | - | - |
 | Root path for the documentation [.] | Yes | . |
 | Separate source and build directories (y/n) [n] | Yes | n |
 | Name prefix for templates and static dir [_]: | Yes | _ |
-| Project name:  | No | card |
-| Author name(s): | No | your name |
-| Project version []:| No | 0.1 |
+| Project name:  | **No** | card |
+| Author name(s): | **No** | your name |
+| Project version []:| **No** | 0.1 |
 | Project release [0.1]: | Yes | 0.1 |
 | Project language [en]: | Yes | en |
 | Source file suffix [.rst]: | Yes | .rst |
 | Name of your master document (without suffix) [index]: | Yes | index |
 | Do you want to use the epub builder (y/n) [n]: | Yes | n |
-| autodoc: automatically insert docstrings from modules (y/n) [n]: | No | y |
+| autodoc: automatically insert docstrings from modules (y/n) [n]: | **No** | y |
 | doctest: automatically test code snippets in doctest blocks (y/n) [n]: | Yes | n |
 | intersphinx: link between Sphinx documentation of different projects (y/n) [n]: | Yes | n |
 | todo: write "todo" entries that can be shown or hidden on build (y/n) [n]: | Yes | n |
@@ -81,7 +81,7 @@ _There are a lot of questions but most of which can be left as the default by si
 
 --- /task ---
 
-The Sphinx quick-start program will created a number of files and directorys, which is where your documentation will be created.
+The Sphinx quick-start program will make a number of files and directorys where your documentation will be created.
 
 --- collapse ---
 
@@ -109,5 +109,5 @@ The key files and directory are:
 
 + `index.rst` — this is the **main** page and index of your documentation
 
-+ `_build` — your documentation will be created in this directory
++ `_build` — the directory where your documentation will be created
 
