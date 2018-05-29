@@ -5,7 +5,7 @@ theme: red # possible values: blue, green, navy, orange, red, turquoise, violet,
 duration: 2
 listed: false
 ingredient: false
-copyedit: false
+copyedit: true
 curriculum: 4, design-0, programming-4, phys-comp-0, manufacture-0, community-3
 interests: ''
 technologies: python
