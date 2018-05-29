@@ -1,10 +1,10 @@
 ## Introduction
 
-To share the programs you've written and help people use them, you will create a website for your projects that documents your code.
+To share the programs you've written and help people use them, you will create a website that documents your project code.
 
 ### What you will make
 
-You will create a website for your project that automatically creates documentation from your code.
+This guide will teach you how to build a website for your project that automatically creates documentation for your Python programs.
 
 ![project website](images/project_website.PNG)
 
@@ -14,7 +14,7 @@ You will create a website for your project that automatically creates documentat
 
 + How to automatically generate documentation
 
-+ How to use reStructuredText
++ How to use the reStructuredText markup language
 
 + How to create a project website using Sphinx
 
