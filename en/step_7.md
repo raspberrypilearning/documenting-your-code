@@ -12,13 +12,13 @@ To create content for your Sphinx website, you will write text files formatted u
 
 --- task ---
 
-Open a terminal or command prompt window.
++ Open a terminal or command prompt window.
 
 --- /task ---
 
 --- task ---
 
-Use `pip3` to install the `Sphinx` module.
++ Use `pip3` to install the `Sphinx` module.
 
 [[[generic-python-installing-with-pip]]]
 
@@ -30,13 +30,13 @@ Sphinx includes a quick-start utility that creates a template Sphinx project.
 
 --- task ---
 
-Navigate to your project directory.
++ Navigate to your project directory.
 
 --- /task ---
 
 --- task ---
 
-Run the Sphinx quick-start utility by running:
++ Run the Sphinx quick-start utility by running:
 
 ```bash
 sphinx-quickstart
@@ -48,7 +48,7 @@ sphinx-quickstart
 
 --- task ---
 
-Use the following responses to complete the quick-start questionnaire that will determine properties and settings Sphinx will use for your website.
++ Use the following responses to complete the quick-start questionnaire that will determine properties and settings Sphinx will use for your website.
 
 **Note:** There's a fair number of questions — you'll use the default answer for **all but four** of them by pressing <kbd>Enter</kbd>.
 
