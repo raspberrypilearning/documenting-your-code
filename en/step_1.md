@@ -1,6 +1,6 @@
 ## Introduction
 
-When you've written a useful piece of code and want to share it with other programmers, a crucial step is creating documentation that helps people understand what the code does, how it works, and how they can use it.
+When you've written a useful computer program and want to share it with other code, a crucial step is creating documentation that helps people understand what the code does, how it works, and how they can use it.
 
 To share the programs you've written and help people use them, you will create a website that documents code.
 
