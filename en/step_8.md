@@ -4,7 +4,7 @@ To view your project website, you will need to **build** it. This converts all t
 
 --- task ---
 
-Run the following command to build your website.
++ Run the following command to build your website.
 
 ```bash
 make html
@@ -18,7 +18,7 @@ This will create a `html` folder in the `_build` directory that will hold the pr
 
 --- task ---
 
-Open the `index.html` file in the `_build/html` directory using a web browser.
++ Open the `index.html` file in the `_build/html` directory using a web browser.
 
 You will see an empty project site:
 
@@ -26,4 +26,4 @@ You will see an empty project site:
 
 --- /task ---
 
-Now you need add your own content to the project site, including auto-generated documentation for your code.
+Next you'll add your own content to the project site, including auto-generated documentation for your code.
