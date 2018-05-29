@@ -66,4 +66,4 @@ You will see a page that shows the `Card` and `Deck` classes, their methods, and
 
 --- /task ---
 
-You could upload this basic HTML page to a hosting service to provide your users with information about your software. The next steps of this project will show you how to build a more professional documentation website using the Sphinx tool.
+You could upload this basic HTML page to a hosting service to provide your users with information about your software. The next steps of this project will show you how to use the Sphinx tool to build a documentation website to which you can add additional content and information.
