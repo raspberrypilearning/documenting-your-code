@@ -12,7 +12,7 @@ Download the [project code](resources/card.py) called `card.py`.
 
 --- task ---
 
-Open the downloaded `card.py` program using Python 3 IDLE.
+Open the downloaded `card.py` program using Thonny or your prefered Python IDE
 
 --- /task ---
 
