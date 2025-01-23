@@ -31,3 +31,5 @@ steps:
   completion:
   - internal
 - title: 'Challenge: improve your website'
+  completion:
+  - external
